@@ -19,6 +19,25 @@
 		861C325818F4B26500519544 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861C324018F4B26500519544 /* UIKit.framework */; };
 		861C326018F4B26500519544 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 861C325E18F4B26500519544 /* InfoPlist.strings */; };
 		861C326218F4B26500519544 /* hw9_particle_sys_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C326118F4B26500519544 /* hw9_particle_sys_iosTests.m */; };
+		861C327618F4B2B800519544 /* EmitterObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C326B18F4B2B800519544 /* EmitterObject.m */; };
+		861C327718F4B2B800519544 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C326C18F4B2B800519544 /* MainViewController.m */; };
+		861C327818F4B2B800519544 /* EmitterShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C326E18F4B2B800519544 /* EmitterShader.m */; };
+		861C327B18F4B2B800519544 /* FirstStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861C327218F4B2B800519544 /* FirstStoryboard.storyboard */; };
+		861C327C18F4B2B800519544 /* ShaderProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 861C327418F4B2B800519544 /* ShaderProcessor.mm */; };
+		861C327E18F4B4AB00519544 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861C327D18F4B4AB00519544 /* OpenGLES.framework */; };
+		861C328018F4B4B300519544 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861C327F18F4B4B300519544 /* GLKit.framework */; };
+		8681510318F4B55A000CDC06 /* texture_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 8681510018F4B55A000CDC06 /* texture_16.png */; };
+		8681510418F4B55A000CDC06 /* texture_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8681510118F4B55A000CDC06 /* texture_32.png */; };
+		8681510518F4B55A000CDC06 /* texture_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 8681510218F4B55A000CDC06 /* texture_64.png */; };
+		8681511318F4CD63000CDC06 /* snowflake7_alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8681510C18F4CD63000CDC06 /* snowflake7_alpha.png */; };
+		8681511618F4D21B000CDC06 /* snowflake-transparent-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8681511418F4D21B000CDC06 /* snowflake-transparent-2.png */; };
+		8681511718F4D21B000CDC06 /* snowflake-transparent-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8681511518F4D21B000CDC06 /* snowflake-transparent-1.png */; };
+		8681511B18F4D69F000CDC06 /* snowflake-transparent-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8681511818F4D69F000CDC06 /* snowflake-transparent-5.png */; };
+		8681511C18F4D69F000CDC06 /* snowflake-transparent-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8681511918F4D69F000CDC06 /* snowflake-transparent-4.png */; };
+		8681511D18F4D69F000CDC06 /* pump_star_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 8681511A18F4D69F000CDC06 /* pump_star_03.png */; };
+		8681511F18F6073C000CDC06 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8681511E18F6073C000CDC06 /* SecondStoryboard.storyboard */; };
+		8681512218F60965000CDC06 /* SnowSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8681512118F60965000CDC06 /* SnowSceneViewController.m */; };
+		8681512518F60CDF000CDC06 /* SnowEmitterObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8681512418F60CDF000CDC06 /* SnowEmitterObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +67,33 @@
 		861C325D18F4B26500519544 /* hw9_particle_sys_iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hw9_particle_sys_iosTests-Info.plist"; sourceTree = "<group>"; };
 		861C325F18F4B26500519544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		861C326118F4B26500519544 /* hw9_particle_sys_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw9_particle_sys_iosTests.m; sourceTree = "<group>"; };
+		861C326B18F4B2B800519544 /* EmitterObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterObject.m; sourceTree = "<group>"; };
+		861C326C18F4B2B800519544 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		861C326D18F4B2B800519544 /* EmitterObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterObject.h; sourceTree = "<group>"; };
+		861C326E18F4B2B800519544 /* EmitterShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterShader.m; sourceTree = "<group>"; };
+		861C326F18F4B2B800519544 /* EmitterShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterShader.h; sourceTree = "<group>"; };
+		861C327018F4B2B800519544 /* SparkEmitter.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SparkEmitter.vsh; sourceTree = "<group>"; };
+		861C327118F4B2B800519544 /* SparkEmitter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SparkEmitter.fsh; sourceTree = "<group>"; };
+		861C327218F4B2B800519544 /* FirstStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstStoryboard.storyboard; sourceTree = "<group>"; };
+		861C327318F4B2B800519544 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		861C327418F4B2B800519544 /* ShaderProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShaderProcessor.mm; sourceTree = "<group>"; };
+		861C327518F4B2B800519544 /* ShaderProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProcessor.h; sourceTree = "<group>"; };
+		861C327D18F4B4AB00519544 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		861C327F18F4B4B300519544 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8681510018F4B55A000CDC06 /* texture_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture_16.png; sourceTree = "<group>"; };
+		8681510118F4B55A000CDC06 /* texture_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture_32.png; sourceTree = "<group>"; };
+		8681510218F4B55A000CDC06 /* texture_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture_64.png; sourceTree = "<group>"; };
+		8681510C18F4CD63000CDC06 /* snowflake7_alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowflake7_alpha.png; sourceTree = "<group>"; };
+		8681511418F4D21B000CDC06 /* snowflake-transparent-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snowflake-transparent-2.png"; sourceTree = "<group>"; };
+		8681511518F4D21B000CDC06 /* snowflake-transparent-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snowflake-transparent-1.png"; sourceTree = "<group>"; };
+		8681511818F4D69F000CDC06 /* snowflake-transparent-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snowflake-transparent-5.png"; sourceTree = "<group>"; };
+		8681511918F4D69F000CDC06 /* snowflake-transparent-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snowflake-transparent-4.png"; sourceTree = "<group>"; };
+		8681511A18F4D69F000CDC06 /* pump_star_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pump_star_03.png; sourceTree = "<group>"; };
+		8681511E18F6073C000CDC06 /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SecondStoryboard.storyboard; path = ../SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		8681512018F60965000CDC06 /* SnowSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowSceneViewController.h; sourceTree = "<group>"; };
+		8681512118F60965000CDC06 /* SnowSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowSceneViewController.m; sourceTree = "<group>"; };
+		8681512318F60CDF000CDC06 /* SnowEmitterObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowEmitterObject.h; sourceTree = "<group>"; };
+		8681512418F60CDF000CDC06 /* SnowEmitterObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowEmitterObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861C328018F4B4B300519544 /* GLKit.framework in Frameworks */,
+				861C327E18F4B4AB00519544 /* OpenGLES.framework in Frameworks */,
 				861C323F18F4B26500519544 /* CoreGraphics.framework in Frameworks */,
 				861C324118F4B26500519544 /* UIKit.framework in Frameworks */,
 				861C323D18F4B26500519544 /* Foundation.framework in Frameworks */,
@@ -96,6 +144,8 @@
 		861C323B18F4B26500519544 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				861C327F18F4B4B300519544 /* GLKit.framework */,
+				861C327D18F4B4AB00519544 /* OpenGLES.framework */,
 				861C323C18F4B26500519544 /* Foundation.framework */,
 				861C323E18F4B26500519544 /* CoreGraphics.framework */,
 				861C324018F4B26500519544 /* UIKit.framework */,
@@ -107,8 +157,25 @@
 		861C324218F4B26500519544 /* hw9_particle_sys_ios */ = {
 			isa = PBXGroup;
 			children = (
+				8681511E18F6073C000CDC06 /* SecondStoryboard.storyboard */,
+				8681512018F60965000CDC06 /* SnowSceneViewController.h */,
+				8681512118F60965000CDC06 /* SnowSceneViewController.m */,
+				861C326B18F4B2B800519544 /* EmitterObject.m */,
+				8681512318F60CDF000CDC06 /* SnowEmitterObject.h */,
+				8681512418F60CDF000CDC06 /* SnowEmitterObject.m */,
+				861C326C18F4B2B800519544 /* MainViewController.m */,
+				861C326D18F4B2B800519544 /* EmitterObject.h */,
+				861C326E18F4B2B800519544 /* EmitterShader.m */,
+				861C326F18F4B2B800519544 /* EmitterShader.h */,
+				861C327018F4B2B800519544 /* SparkEmitter.vsh */,
+				861C327118F4B2B800519544 /* SparkEmitter.fsh */,
+				861C327218F4B2B800519544 /* FirstStoryboard.storyboard */,
+				861C327318F4B2B800519544 /* MainViewController.h */,
+				861C327418F4B2B800519544 /* ShaderProcessor.mm */,
+				861C327518F4B2B800519544 /* ShaderProcessor.h */,
 				861C324B18F4B26500519544 /* AppDelegate.h */,
 				861C324C18F4B26500519544 /* AppDelegate.m */,
+				868150FF18F4B55A000CDC06 /* Textures */,
 				861C324E18F4B26500519544 /* Images.xcassets */,
 				861C324318F4B26500519544 /* Supporting Files */,
 			);
@@ -142,6 +209,22 @@
 				861C325E18F4B26500519544 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		868150FF18F4B55A000CDC06 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				8681511818F4D69F000CDC06 /* snowflake-transparent-5.png */,
+				8681511918F4D69F000CDC06 /* snowflake-transparent-4.png */,
+				8681511A18F4D69F000CDC06 /* pump_star_03.png */,
+				8681511418F4D21B000CDC06 /* snowflake-transparent-2.png */,
+				8681511518F4D21B000CDC06 /* snowflake-transparent-1.png */,
+				8681510C18F4CD63000CDC06 /* snowflake7_alpha.png */,
+				8681510018F4B55A000CDC06 /* texture_16.png */,
+				8681510118F4B55A000CDC06 /* texture_32.png */,
+				8681510218F4B55A000CDC06 /* texture_64.png */,
+			);
+			path = Textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +302,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8681511618F4D21B000CDC06 /* snowflake-transparent-2.png in Resources */,
+				8681510318F4B55A000CDC06 /* texture_16.png in Resources */,
+				8681511318F4CD63000CDC06 /* snowflake7_alpha.png in Resources */,
+				8681510518F4B55A000CDC06 /* texture_64.png in Resources */,
+				8681510418F4B55A000CDC06 /* texture_32.png in Resources */,
+				8681511B18F4D69F000CDC06 /* snowflake-transparent-5.png in Resources */,
+				8681511F18F6073C000CDC06 /* SecondStoryboard.storyboard in Resources */,
+				8681511D18F4D69F000CDC06 /* pump_star_03.png in Resources */,
+				8681511C18F4D69F000CDC06 /* snowflake-transparent-4.png in Resources */,
+				861C327B18F4B2B800519544 /* FirstStoryboard.storyboard in Resources */,
+				8681511718F4D21B000CDC06 /* snowflake-transparent-1.png in Resources */,
 				861C324718F4B26500519544 /* InfoPlist.strings in Resources */,
 				861C324F18F4B26500519544 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +335,12 @@
 			files = (
 				861C324D18F4B26500519544 /* AppDelegate.m in Sources */,
 				861C324918F4B26500519544 /* main.m in Sources */,
+				861C327618F4B2B800519544 /* EmitterObject.m in Sources */,
+				861C327818F4B2B800519544 /* EmitterShader.m in Sources */,
+				861C327718F4B2B800519544 /* MainViewController.m in Sources */,
+				861C327C18F4B2B800519544 /* ShaderProcessor.mm in Sources */,
+				8681512518F60CDF000CDC06 /* SnowEmitterObject.m in Sources */,
+				8681512218F60965000CDC06 /* SnowSceneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +537,7 @@
 				861C326718F4B26500519544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861C326818F4B26500519544 /* Build configuration list for PBXNativeTarget "hw9_particle_sys_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +546,7 @@
 				861C326A18F4B26500519544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
